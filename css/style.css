@@ -1,4 +1,4 @@
-/* global style start here */
+/* global section style start here */
 @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
@@ -7,6 +7,10 @@
     box-sizing: border-box;
     font-family: 'Bacasime Antique', serif;
     font-family: 'Merriweather', serif;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 .primary-btn {
@@ -19,19 +23,15 @@
     font-size: 20px;
 }
 
-body {
-    overflow-x: hidden;
-}
+/* global section style end here */
 
-/* global style end here */
-
-/* header style start here */
+/* header section style start here */
 header {
     width: 100%;
     background: rgba(229, 84, 115, 0.10);
 }
 
-/* navbar style */
+/* navbar  section style */
 header .nav-section {
     width: 100%;
     height: 100px;
@@ -67,7 +67,7 @@ ul li a {
     color: black;
 }
 
-/* banner style */
+/* banner section style */
 .banner-section {
     display: flex;
     justify-content: space-around;
@@ -98,14 +98,14 @@ ul li a {
     width: 400px;
 }
 
-/* header style end here */
+/* header section style end here */
 
-/* main style start here */
+/* main section style start here */
 main {
     width: 100%;
 }
 
-/* about style */
+/* about section style */
 .about-heading {
     color: #272727;
     text-align: center;
@@ -143,7 +143,7 @@ main {
     width: 600px;
 }
 
-/* featured style */
+/* featured section style */
 .featured-heading {
     color: #272727;
     text-align: center;
@@ -206,7 +206,7 @@ main {
 }
 
 .feature-bottom {
-    width: 1400px;
+    width: 1300px;
     height: 320px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
@@ -232,4 +232,156 @@ main {
     font-weight: 600;
 }
 
-/* main style end here */
+/* deal section style */
+.deal-section {
+    width: 100%;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 100px 0px;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.deal-section .del-left {
+    width: 590px;
+    text-align: center;
+}
+
+.deal-section .del-left .del-heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deal-section .del-left .deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 30px 0px;
+}
+
+.deal-section .del-left .del-heading span {
+    color: #E55473;
+}
+
+/* instagram section style */
+.insta-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.insta-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 30px 0px;
+}
+
+.insta-section {
+    text-align: center;
+}
+
+.insta-section .insta-profile {
+    width: 305px;
+    margin: 100px 10px;
+}
+
+.insta-bottom {
+    width: 1300px;
+    height: 449px;
+    background-image: url('../images/Rectangle 9.png');
+    margin: 0 auto;
+    position: relative;
+}
+
+.insta-bottom .insta-bottom-info {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.insta-bottom .insta-bottom-info .insta-bottom-heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.insta-bottom .insta-bottom-info .insta-bottom-text {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px 0px;
+}
+
+.insta-bottom form {
+    display: flex;
+}
+
+.insta-bottom .insta-bottom-info input[type="text"] {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    outline: 0;
+    padding: 0px 20px;
+}
+
+.insta-bottom .insta-bottom-info input[type="submit"] {
+    margin-left: 10px;
+}
+
+/* main section style end here */
+
+/* footer section style start here  */
+footer {
+    width: 100%;
+    height: 449px;
+    background: #111010;
+    margin-top: 100px;
+    color: white;
+    position: relative;
+    border-bottom: 2px solid #E55473;
+}
+
+.footer-info {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.footer-info .footer-heading {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-info .footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 30px 0px;
+}
+.footer-info span{
+    color: #E55473;
+}
+.footer-info small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* footer section style end here */
