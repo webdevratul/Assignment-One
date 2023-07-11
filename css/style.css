@@ -19,6 +19,10 @@
     font-size: 20px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* global style end here */
 
 /* header style start here */
@@ -169,7 +173,7 @@ main {
 }
 
 .featured-section .feature-item .featured-profile {
-    width: 400px;
+    width: 350px;
     height: 500px;
     padding-top: 50px;
     padding-bottom: 50px;
